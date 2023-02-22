@@ -9254,6 +9254,9 @@ GameObject:
   - component: {fileID: 3778320227115413190}
   - component: {fileID: 6588185974198131677}
   - component: {fileID: 4905796744297456568}
+  - component: {fileID: 6588185974198131680}
+  - component: {fileID: 6588185974198131679}
+  - component: {fileID: 6588185974198131678}
   m_Layer: 0
   m_Name: HouseExterior
   m_TagString: Untagged
@@ -21856,6 +21859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6227736892683416455}
   - component: {fileID: 6227736892683416454}
+  - component: {fileID: 6227736892683416456}
   m_Layer: 0
   m_Name: Point Light (3)
   m_TagString: Untagged
@@ -21940,6 +21944,26 @@ Transform:
   m_Father: {fileID: 2030188685}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6227736892683416456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227736892683416448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!108 &6227736892873444867
 Light:
   m_ObjectHideFlags: 0
@@ -23406,6 +23430,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931822363495133617}
   m_Mesh: {fileID: -3887317075837861360, guid: b46a848a5ea4d0f4d9784aaaff85e23a, type: 3}
+--- !u!65 &6588185974198131678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931822363495133617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.583127, y: 5.839501, z: 2.0442352}
+  m_Center: {x: -2.4526362, y: 0.056343794, z: -3.7964096}
+--- !u!65 &6588185974198131679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931822363495133617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3781621, y: 5.839501, z: 2.389317}
+  m_Center: {x: -0.19849455, y: 0.056343794, z: -2.6279385}
+--- !u!65 &6588185974198131680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931822363495133617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.2474403, y: 3.4790509, z: 1.6681044}
+  m_Center: {x: 4.181675, y: -1.1238812, z: -3.0888357}
 --- !u!4 &6590340596603801694
 Transform:
   m_ObjectHideFlags: 0
@@ -28444,6 +28507,7 @@ GameObject:
   - component: {fileID: 5006512736761870787}
   - component: {fileID: 4044710142529750005}
   - component: {fileID: 7718390322126667532}
+  - component: {fileID: 8296172667770112977}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -28451,6 +28515,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &8296172667770112977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172667770112976}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.181051, y: 0.08558761, z: 8.055218}
+  m_Center: {x: 0.06896329, y: -0.016468015, z: 0.0007619858}
 --- !u!1 &8296172667849818454
 GameObject:
   m_ObjectHideFlags: 0
